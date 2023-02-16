@@ -33,17 +33,10 @@
         
         p.txt-invisible Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit illo. Optio accusamus incidunt ad aspernatur sed? Consectetur quam eveniet exercitationem saepe. Modi facere illo maiores quos suscipit, alias iste?
 
-    br
-    br
-    br
-
-    separador
     
     .row.container.justify-content-around.align-items-center
         
-        #tipos
-        .titulo-segundo.color-primario
-          h2 3.1 Tipos
+        h3.mt-5 Tipos
         
         p El mantenimiento que se puede llevar a cabo en un data center, así como en la infraestructura tecnológica en general, son de tres tipos:
 
@@ -71,29 +64,21 @@
 
         p Prestar atención al proceso de gestión de operaciones que nos permite realizar monitoreo, control y mantenimiento a los servicios TI, garantiza que la plataforma tecnológica estará disponible y sus dispositivos bajo seguimiento para evitar la presencia de incidencias que afecten la normalidad en el funcionamiento de los recursos del sistema. 
 
-    br
-    br
-    br
+    h3.my-5 Protocolo de mantenimiento
 
-    .row.container.justify-content-around.align-items-center
-
-        #protocolo-de-mantenimiento
-        .titulo-segundo.color-primario
-          h2 3.2 Protocolo de mantenimiento
-
-        .row 
-            .col-lg-8
-              
-              p Para estructurar el protocolo de mantenimiento al centro de datos se debe conocer la normativa vigente a la hora de diseñar uno, disponibilidad de equipos y tipos de servicios que brinda, así se podrán generar esquemas de trabajo organizado en los cuales las interrupciones en la prestación del servicio asociados al centro de datos no afecten a los usuarios finales. De acuerdo con lo anterior, se debe tener presente el servicio y sus características, también los tiempos de respuesta a la hora de atender cada requerimiento; así se podrá estructurar un protocolo que responda a las necesidades organizacionales y que responda a los requerimientos propios de cada empresa. 
-            
-            .col-lg-4
-                figure
-                  img(src="@/assets/curso/temas/img-proto-mant-tema3.png", alt="alt").img-proto-mant-tema3
+    .row 
+        .col-lg-8
           
-        .row.linea2-proto-mant-tema3
+          p Para estructurar el protocolo de mantenimiento al centro de datos se debe conocer la normativa vigente a la hora de diseñar uno, disponibilidad de equipos y tipos de servicios que brinda, así se podrán generar esquemas de trabajo organizado en los cuales las interrupciones en la prestación del servicio asociados al centro de datos no afecten a los usuarios finales. De acuerdo con lo anterior, se debe tener presente el servicio y sus características, también los tiempos de respuesta a la hora de atender cada requerimiento; así se podrá estructurar un protocolo que responda a las necesidades organizacionales y que responda a los requerimientos propios de cada empresa. 
+        
+        .col-lg-4
+            figure
+              img(src="@/assets/curso/temas/img-proto-mant-tema3.png", alt="alt").img-proto-mant-tema3
+      
+    .row.linea2-proto-mant-tema3
 
-            h4 Servicios y características
-            p Existen criterios para la prestación de servicios y protocolos de servicios, estos corresponden a los requerimientos hechos sobre novedades presentadas en la prestación de servicios TI, es decir, al sistema presentar una falla, un usuario responsable se encarga de diligenciar una novedad a través de un sistema de gestión de <em>tickets</em> (o servicios); una vez generada la solicitud, el administrador del sistema de acuerdo al nivel de atención que se requiera asignará a un técnico disponible para su atención y solución.
+        h4 Servicios y características
+        p Existen criterios para la prestación de servicios y protocolos de servicios, estos corresponden a los requerimientos hechos sobre novedades presentadas en la prestación de servicios TI, es decir, al sistema presentar una falla, un usuario responsable se encarga de diligenciar una novedad a través de un sistema de gestión de <em>tickets</em> (o servicios); una vez generada la solicitud, el administrador del sistema de acuerdo al nivel de atención que se requiera asignará a un técnico disponible para su atención y solución.
 
 
     .row.container.justify-content-around.align-items-center
@@ -212,57 +197,44 @@
                   .anexo__texto
                     p Enlace web Visitar GLPI Project.
         
+    h3.my-5 Normas y estándares de los data center
+
+    .row 
+      .col-lg-6
+          
+          figure
+              img(src='@/assets/curso/temas/img1-normas-data-center.png', alt='Texto que describa la imagen').img1-normas-data-center
+    
+      .col-lg-6
+        p A través del siguiente vídeo podrá conocer sobre las normas y estándares vigentes para la certificación de un data center.
+        
+        a.anexo.mb-4.mb-lg-0(href="https://youtu.be/m9r73opxikg  " target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p Enlace web Estándares Normas Guías y esas ensaladas en un Data Center – Teksar Labs
+        
+        h3.mt-5 Normas y estándares nacionales e internacionales
+        
+        p Algunas certificaciones son requisitos obligatorios para el funcionamiento del data center, algunas otras son sugerencias de operación, administración y control del mismo.
+
+
+    br
+    br
     br
 
-    separador
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10      
+        .row.justify-content-evenly.align-items-center.fondo-tarj-anexo-tema4.tarjeta.p-2.mt-5
+          .col-auto
+            img.img-t(src="@/assets/template/icono-pdf.svg")
 
-    br
-
-    .row.container.justify-content-around.align-items-center
-
-        #normas-y-estandares-de-los-data-center
-        .titulo-segundo.color-primario
-          h2 3.3 Normas y estándares de los data center
-
-        .row 
-          .col-lg-6
+          .col-lg-9.my-3 
+            h4.txt-tarj-anexo-tema2 Normas y estándares nacionales e internacionales
+            p.txt-tarj-anexo-tema2.mb-0 Para conocer un caso real de la implementación de buenas prácticas en un centro de datos, visualice el siguiente caso práctico de la licitación entregada por la Procuraduría General de la Nación, cuyo objetivo es reubicar el centro de datos según el siguiente anexo técnico:
               
-              figure
-                  img(src='@/assets/curso/temas/img1-normas-data-center.png', alt='Texto que describa la imagen').img1-normas-data-center
-       
-          .col-lg-6
-            p A través del siguiente vídeo podrá conocer sobre las normas y estándares vigentes para la certificación de un data center.
-            
-            a.anexo.mb-4.mb-lg-0(href="https://youtu.be/m9r73opxikg  " target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-link.svg")
-                  .anexo__texto
-                    p Enlace web Estándares Normas Guías y esas ensaladas en un Data Center – Teksar Labs
-            
-            h4 Normas y estándares nacionales e internacionales
-            
-            p Algunas certificaciones son requisitos obligatorios para el funcionamiento del data center, algunas otras son sugerencias de operación, administración y control del mismo.
-
-
-    br
-    br
-    br
-
-    .row.container.justify-content-around.align-items-center
-
-        .row.fondo-tarj-anexo-tema2.tarjeta.p-4
-          .col-lg-2
-            .icon-pdf-tarj-anexo-tema2
-                img(src="@/assets/template/icono-pdf.svg")
-
-          .col-lg-8
-
-              h4.txt-tarj-anexo-tema2 Normas y estándares nacionales e internacionales
-              p.txt-tarj-anexo-tema2 Para conocer un caso real de la implementación de buenas prácticas en un centro de datos, visualice el siguiente caso práctico de la licitación entregada por la Procuraduría General de la Nación, cuyo objetivo es reubicar el centro de datos según el siguiente anexo técnico:
-              
-          .col-lg-2
-            .icon-boton-tarj-anexo-tema2
-              a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4 Estandares y normas.pdf')" target="_blank")
+          .col-auto
+              a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4_Estandares_y_normas.pdf')" target="_blank")
                 .anexo__texto
                 span Descargar
                 i.fas.fa-file-download
@@ -303,23 +275,18 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10      
+        .row.justify-content-evenly.align-items-center.fondo-tarj-anexo-tema4.tarjeta.p-2.mt-5
+          .col-auto
+            img.img-t(src="@/assets/template/icono-pdf.svg")
 
-        .row.fondo-tarj-anexo-tema2.tarjeta.p-4
-          .col-lg-2
-            .icon-pdf-tarj-anexo-tema2
+          .col-lg-9.my-3
+            h4.txt-tarj-anexo-tema2 Criterios de manejo de incidentes
+            p.txt-tarj-anexo-tema2.mb-0 Para identificar los criterios de manejo de incidentes en el centro de datos según la normatividad vigente y los estándares, consulte el siguiente material:
               
-                img(src="@/assets/template/icono-pdf.svg")
-
-          .col-lg-8
-              br
-              h4.txt-tarj-anexo-tema2 Criterios de manejo de incidentes
-              p.txt-tarj-anexo-tema2 Para identificar los criterios de manejo de incidentes en el centro de datos según la normatividad vigente y los estándares, consulte el siguiente material:
-              
-          .col-lg-2
-            
-            .icon-boton-tarj-anexo-tema2
-              a.boton.boton--b(:href="obtenerLink('/downloads/anexo_6 Manejo incidentes.pdf')" target="_blank")
+          .col-auto
+              a.boton.boton--b(:href="obtenerLink('/downloads/anexo_6_Manejo_incidentes.pdf')" target="_blank")
                 .anexo__texto
                 span Descargar
                 i.fas.fa-file-download

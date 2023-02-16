@@ -110,24 +110,21 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center   
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10      
+        .row.justify-content-evenly.align-items-center.fondo-tarj-anexo-tema4.tarjeta.p-2.mt-5
+          .col-auto
+            img.img-t(src="@/assets/template/icono-pdf.svg")
 
-        .row.fondo-tarj-anexo-tema2.tarjeta.p-4
-            .col-lg-2
-              .icon-pdf-tarj-anexo-tema2
-                  img(src="@/assets/template/icono-pdf.svg")
-
-            .col-lg-8
-
-                h4.txt-tarj-anexo-tema2 Aplicación de la informática forense y las tendencias de los ecosistemas tecnológicos
-                p.txt-tarj-anexo-tema2 Para conocer sobre la aplicabilidad de la informática forense y las tendencias de los ecosistemas tecnológicos, lo invitamos a revisar en siguiente documento:
+          .col-lg-9.my-3
+            h4.txt-tarj-anexo-tema2 Aplicación de la informática forense y las tendencias de los ecosistemas tecnológicos
+            p.txt-tarj-anexo-tema2 Para conocer sobre la aplicabilidad de la informática forense y las tendencias de los ecosistemas tecnológicos, lo invitamos a revisar en siguiente documento:
                 
-            .col-lg-2
-              .icon-boton-tarj-anexo-tema2
-                a.boton.boton--b(:href="obtenerLink('/downloads/anexo_8 Informatica forense.pdf')" target="_blank")
-                  .anexo__texto
-                  span Descargar
-                  i.fas.fa-file-download
+          .col-auto
+            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_8_Informatica_forense.pdf')" target="_blank")
+              .anexo__texto
+              span Descargar
+              i.fas.fa-file-download
     br
     br
 

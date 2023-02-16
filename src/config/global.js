@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Planificación de actividades para el mantenimiento de la infraestructura tecnológica',
+    componenteFormativo: 'Implementación de TI y centro de datos',
     descripcionCurso:
       'A través de este componente formativo se conocerá la importancia de un centro de datos en una empresa y la gestión administrativa necesaria para su funcionamiento. Además de la planificación de actividades para el adecuado mantenimiento de la infraestructura de las tecnologías de la información. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/img-banner-principal2.png'),
@@ -40,26 +39,6 @@ export default {
         numero: '1',
         titulo: 'Esquema organizativo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Infraestructura tecnológica',
-            hash: 'infraestructura-tecnologica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Red de datos',
-            hash: 'red-de-datos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Modelos de referencia',
-            hash: 'modelos-de-referencia',
-          },
-        ],
       },
 
       {
@@ -75,26 +54,6 @@ export default {
         numero: '3',
         titulo: 'Mantenimiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos',
-            hash: 'tipos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Protocolo de mantenimiento',
-            hash: 'protocolo-de-mantenimiento',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Normas y estándares de los <em>data Center</em>',
-            hash: 'normas-y-estandares-de-los-data-center',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -102,32 +61,6 @@ export default {
         numero: '4',
         titulo: 'Redes convergentes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Modelo de red de convergencia',
-            hash: 'modelo-de-red-de-convergencia',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Características de la arquitectura',
-            hash: 'caracteristicas-de-la-arquitectura',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Sistema de telefonía',
-            hash: 'sistema-de-telefonia',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Características',
-            hash: 'caracteristicas',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',

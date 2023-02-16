@@ -1,2 +1,1 @@
-module.exports =
-  'Planificación de actividades para el mantenimiento de la infraestructura tecnológica'
+module.exports = 'Implementación de TI y centro de datos'

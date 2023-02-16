@@ -1,15 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
-  //(icono="fas fa-tasks" titulo="Actividad didáctica")
+  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .titulo-principal.color-acento-contenido
-        .titulo-principal__numero
-          span
-            i.fas.fa-info
-        h1 Actividad didáctica
-    
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -19,7 +11,7 @@
 
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
-          h2 Verdadero y falso
+          h2 Implementación de TI y centro de datos
         p.mb-4 Aprendiz, la siguiente actividad le permitirá reconocer la adquisición de conocimientos sobre los data center, normativas y buenas prácticas aplicadas. 
         p ¡Buena suerte!
 
