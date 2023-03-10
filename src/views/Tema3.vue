@@ -38,7 +38,7 @@
         
         h3.mt-5 Tipos
         
-        p El mantenimiento que se puede llevar a cabo en un data center, así como en la infraestructura tecnológica en general, son de tres tipos:
+        p El mantenimiento que se puede llevar a cabo en un <i>data center</i>, así como en la infraestructura tecnológica en general, son de tres tipos:
 
 
         .bg--img_03
@@ -197,7 +197,7 @@
                   .anexo__texto
                     p Enlace web Visitar GLPI Project.
         
-    h3.my-5 Normas y estándares de los data center
+    h3.my-5 Normas y estándares de los <i>data center</i>
 
     .row 
       .col-lg-6
@@ -206,17 +206,17 @@
               img(src='@/assets/curso/temas/img1-normas-data-center.png', alt='Texto que describa la imagen').img1-normas-data-center
     
       .col-lg-6
-        p A través del siguiente vídeo podrá conocer sobre las normas y estándares vigentes para la certificación de un data center.
+        p A través del siguiente vídeo podrá conocer sobre las normas y estándares vigentes para la certificación de un <i>data center</i>.
         
         a.anexo.mb-4.mb-lg-0(href="https://youtu.be/m9r73opxikg  " target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Enlace web Estándares Normas Guías y esas ensaladas en un Data Center – Teksar Labs
+                p Enlace web Estándares Normas Guías y esas ensaladas en un <i>data center</i> – Teksar Labs
         
         h3.mt-5 Normas y estándares nacionales e internacionales
         
-        p Algunas certificaciones son requisitos obligatorios para el funcionamiento del data center, algunas otras son sugerencias de operación, administración y control del mismo.
+        p Algunas certificaciones son requisitos obligatorios para el funcionamiento del <i>data center</i>, algunas otras son sugerencias de operación, administración y control del mismo.
 
 
     br
@@ -251,7 +251,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/img-normas-tar-color-tema3.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Gracias al anexo técnico se pueden conocer las generalidades del data center, los estándares, reglamentos y buenas prácticas que se consideran implementar, especificaciones técnicas como el área para la planta eléctrica, UPS, espacios generales, cuartos de operaciones, máquinas, mecánicos, entre otros. Además, los sistemas que el contratista debe proveer como cableado estructurado, sistema eléctrico, aire acondicionado, sistema de control de fuego y acceso, monitoreo, iluminación, entre otros.
+            p.mb-0 Gracias al anexo técnico se pueden conocer las generalidades del <i>data center</i>, los estándares, reglamentos y buenas prácticas que se consideran implementar, especificaciones técnicas como el área para la planta eléctrica, UPS, espacios generales, cuartos de operaciones, máquinas, mecánicos, entre otros. Además, los sistemas que el contratista debe proveer como cableado estructurado, sistema eléctrico, aire acondicionado, sistema de control de fuego y acceso, monitoreo, iluminación, entre otros.
 
 
     br
@@ -269,7 +269,7 @@
             .col-lg-8
 
                 p Se presentan las proyecciones de los sistemas eléctricos, normatividad para cada cuarto según requerimientos, equipos y dispositivos que irán en el centro de datos incluidas las sillas y los escritorios según la reglamentación técnica. Se presenta una tabla con el total de dispositivos eléctricos y las cargas que cada uno posee, tabla que permite calcular el total de carga (Potencia Total) que debe soportar la planta eléctrica, UPS y sistema eléctrico.
-                p Para listar las pautas del mantenimiento, ya sea preventivo, predictivo o correctivo en un centro de datos, es imprescindible que se conozcan los criterios de manejo de incidentes según la normativa vigente y los estándares, por ello se tratará este tema que le permitirá reconocer a los actores en el proceso de prestación de servicios de mantenimiento a un data center, la estructura de distribución de los servicios y los tiempos de respuesta estimados según corresponda. 
+                p Para listar las pautas del mantenimiento, ya sea preventivo, predictivo o correctivo en un centro de datos, es imprescindible que se conozcan los criterios de manejo de incidentes según la normativa vigente y los estándares, por ello se tratará este tema que le permitirá reconocer a los actores en el proceso de prestación de servicios de mantenimiento a un <i>data center</i>, la estructura de distribución de los servicios y los tiempos de respuesta estimados según corresponda. 
 
     br
     br

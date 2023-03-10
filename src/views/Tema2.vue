@@ -31,27 +31,27 @@
 
           .col-lg-8
               .cuadro-color-tema2.tarjeta
-              p.txt-cuadro-color-tema2 Es importante conocer un data center real de Google ubicado en la ciudad de Oregón USA. Al realizar el recorrido virtual en 360º podrá conocer información relevante sobre niveles de acceso, ubicación y sistemas de protección, temas necesarios para comprender el por qué un data center es configurado de esa manera y por qué es tan importante su protección y vigilancia.
+              p.txt-cuadro-color-tema2 Es importante conocer un <i>data center</i> real de Google ubicado en la ciudad de Oregón USA. Al realizar el recorrido virtual en 360º podrá conocer información relevante sobre niveles de acceso, ubicación y sistemas de protección, temas necesarios para comprender el por qué un <i>data center</i> es configurado de esa manera y por qué es tan importante su protección y vigilancia.
 
               .link-ext-tarj2-tema2
                 a.anexo.mb-4.mb-lg-0(href="https://youtu.be/zDAYZU4A3w0" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p Enlace web Para conocer sobre Google Data Center 360° Tour, visualice el siguiente video
+                    p Enlace web Para conocer sobre Google <i>data center</i> 360° Tour, visualice el siguiente video
 
     .row.align-items-center.mt-5 
       .col-lg-7
 
-        p Un data center o centro de datos, Centro de Procesamiento de Datos CPD, Internet Data Center IDC en inglés, Centro de Cómputo América Latina o Centro de Cálculo, hace referencia a la ubicación física donde se concentran todos los dispositivos tecnológicos que permiten que la red funcione y opere con normalidad. En la actualidad utilizamos servicios en nuestros dispositivos móviles como portátiles, teléfonos inteligentes o tablets sin percatarnos que todos y cada uno de esos servicios son suministrados por un equipo servidor conectado a un data center físico en algún lugar del mundo.
-        p De acuerdo a la necesidad de cada usuario (empresas o clientes privados) se reserva un espacio físico en el data center, allí estarán albergados servidores que ofrecerán los “servicios” empresariales, según el tamaño de la empresa; el data center podrá disponer de salas completas, dispuestas a alojar armarios -rack- con infraestructura TI suficiente para soportarla. Los centros de datos implementan sistemas de seguridad y protección de la información como: sistema de alimentación eléctrico, alimentación de contingencia, refrigeración, sistema de cableado, sistema de detección y extinción de incendios, detectores de agua, humo, control de acceso y monitoreo.
+        p Un <i>data center</i> o centro de datos, Centro de Procesamiento de Datos CPD, Internet <i>data center</i> IDC en inglés, Centro de Cómputo América Latina o Centro de Cálculo, hace referencia a la ubicación física donde se concentran todos los dispositivos tecnológicos que permiten que la red funcione y opere con normalidad. En la actualidad utilizamos servicios en nuestros dispositivos móviles como portátiles, teléfonos inteligentes o tablets sin percatarnos que todos y cada uno de esos servicios son suministrados por un equipo servidor conectado a un <i>data center</i> físico en algún lugar del mundo.
+        p De acuerdo a la necesidad de cada usuario (empresas o clientes privados) se reserva un espacio físico en el <i>data center</i>, allí estarán albergados servidores que ofrecerán los “servicios” empresariales, según el tamaño de la empresa; el <i>data center</i> podrá disponer de salas completas, dispuestas a alojar armarios <i>-rack-</i> con infraestructura TI suficiente para soportarla. Los centros de datos implementan sistemas de seguridad y protección de la información como: sistema de alimentación eléctrico, alimentación de contingencia, refrigeración, sistema de cableado, sistema de detección y extinción de incendios, detectores de agua, humo, control de acceso y monitoreo.
 
       .col-lg-5
           figure
               img(src='@/assets/curso/temas/img3-tema2.png', alt='Texto que describa la imagen').img3-tema2
 
       
-    h5.mt-5.textblue Los centros de datos modernos requieren de supervisión y seguimiento permanente, la domótica y los sensores se vuelven piezas requeridas para su operación. Aspectos como la humedad, temperatura, acceso, niveles de energía, entre otros, son elementos fundamentales cuyos niveles normales permiten que los servicios ofrecidos por el data center operen adecuadamente.        
+    h5.mt-5.textblue Los centros de datos modernos requieren de supervisión y seguimiento permanente, la domótica y los sensores se vuelven piezas requeridas para su operación. Aspectos como la humedad, temperatura, acceso, niveles de energía, entre otros, son elementos fundamentales cuyos niveles normales permiten que los servicios ofrecidos por el <i>data center</i> operen adecuadamente.        
     p.mb-5 A continuación, en el siguiente video, profundizaremos sobre el manejo y la importancia de los centros de datos: 
 
     figure
@@ -68,8 +68,8 @@
       .col-lg-8
       
           p De acuerdo a la lista desarrollada por la empresa StakeScale, uno de los objetivos centrales con respecto a la reducción de la huella de carbono es permitir minimizar el impacto en el medio ambiente a través de la utilización de energías limpias, el uso del aire frío traído desde el exterior para refrigerar el centro de datos o la implementación de paneles solares para optimizar el consumo de energía eléctrica, utilización de elementos naturales que no deterioren la capa de ozono e implementación de energías 100% limpias y renovables.
-          p La principal característica de un data center es suministrar servicios a sus usuarios finales, por tanto son susceptibles a implementar tecnología de punta para su funcionamiento.
-          p Algunas de las funciones clave de un data center son:
+          p La principal característica de un <i>data center</i> es suministrar servicios a sus usuarios finales, por tanto son susceptibles a implementar tecnología de punta para su funcionamiento.
+          p Algunas de las funciones clave de un <i>data center</i> son:
       
       .col-lg-4
           

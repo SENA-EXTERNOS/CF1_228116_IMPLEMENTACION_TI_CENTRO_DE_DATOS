@@ -166,7 +166,7 @@ export default {
         'equipo de repuesto que reemplaza y suple las necesidades básicas a la hora de presentarse un incidente.',
     },
     {
-      termino: 'Data center',
+      termino: '<i>Data center</i>',
       significado:
         'centro de datos. Lugar que administra, gestiona y controla todos los recursos de la red tecnológica, además provee los servicios para el funcionamiento de los sistemas de información en una organización.',
     },

@@ -26,7 +26,6 @@
 
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Nota. Elaboración del experto 2022.
         thead
           tr
             th Equipos
@@ -68,8 +67,8 @@
         img.img-a.img-t(data-aos="flip-up")(src="@/assets/curso/temas/img-finf-tabla-tema1.png", alt="alt").img-finf-tabla-tema1     
           
       .col-lg-7
-        p #[strong  Ejemplo:] en un edificio bancario existe un cuarto exclusivo para ubicar el centro de datos, allí se encuentran dispositivos como: servidores, racks con switch, routers, módems, pantallas, sensores, red eléctrica, cableada, y lo necesario para permitir su funcionamiento. Todos estos componentes integran la infraestructura tecnológica, pero no podemos dejar de lado el edificio como tal; construir un ambiente apropiado para albergar tecnología requiere de conocimientos de normatividad dado que es indispensable velar porque variables como la temperatura, humedad e incluso nivel de acceso, se garanticen en una disponibilidad del 100% 24/7 (24 horas al día por 7 días a la semana). Factores como la altura, volumen, capacidad de carga, hasta el piso, deben ser revisados con detalle y por ello es importante estudiar estos temas a profundidad. 
-        p Si desea conocer sobre las características de la infraestructura de red, criterios de dimensión de un data center, criterios de gestión de servidores y modelos de gestión TI, por favor consulte el siguiente material:
+        p #[strong  Ejemplo:] en un edificio bancario existe un cuarto exclusivo para ubicar el centro de datos, allí se encuentran dispositivos como: servidores, <i>racks</i> con <i>switch</i>, <i>routers</i>, módems, pantallas, sensores, red eléctrica, cableada, y lo necesario para permitir su funcionamiento. Todos estos componentes integran la infraestructura tecnológica, pero no podemos dejar de lado el edificio como tal; construir un ambiente apropiado para albergar tecnología requiere de conocimientos de normatividad dado que es indispensable velar porque variables como la temperatura, humedad e incluso nivel de acceso, se garanticen en una disponibilidad del 100% 24/7 (24 horas al día por 7 días a la semana). Factores como la altura, volumen, capacidad de carga, hasta el piso, deben ser revisados con detalle y por ello es importante estudiar estos temas a profundidad. 
+        p Si desea conocer sobre las características de la infraestructura de red, criterios de dimensión de un <i>data center</i>, criterios de gestión de servidores y modelos de gestión TI, por favor consulte el siguiente material:
 
         .col-lg-10
           a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1_Caracteristicas_red.pdf')" target="_blank")
@@ -86,7 +85,7 @@
         
         .col-lg-7
         
-            p Una red de datos no es más que la interconexión física que existe entre varios dispositivos y que permite la transmisión de información de un equipo a otro o a los demás que están conectados; es decir, una red de datos permite el intercambio de información de manera directa utilizando un medio de comunicación. Al momento de hablar con otras personas, se requiere de un medio de comunicación, un emisor y un receptor, ¿verdad? Así mismo funciona una red de datos, el emisor corresponde al equipo host que desea enviar la información, el medio será cableado, el mismo aire a través de una conexión wifi y el equipo receptor se convierte en aquel para el cual fue enviado el mensaje inicial. Así bien, las redes de datos se pueden crear entre dos dispositivos a través de un cable cruzado, conectados a través de una conexión wifi, dispositivo bluetooth, infrarrojo o todo aquel que permita el intercambio de datos de un equipo al otro. 
+            p Una red de datos no es más que la interconexión física que existe entre varios dispositivos y que permite la transmisión de información de un equipo a otro o a los demás que están conectados; es decir, una red de datos permite el intercambio de información de manera directa utilizando un medio de comunicación. Al momento de hablar con otras personas, se requiere de un medio de comunicación, un emisor y un receptor, ¿verdad? Así mismo funciona una red de datos, el emisor corresponde al equipo host que desea enviar la información, el medio será cableado, el mismo aire a través de una conexión wifi y el equipo receptor se convierte en aquel para el cual fue enviado el mensaje inicial. Así bien, las redes de datos se pueden crear entre dos dispositivos a través de un cable cruzado, conectados a través de una conexión wifi, dispositivo <i>bluetooth</i>, infrarrojo o todo aquel que permita el intercambio de datos de un equipo al otro. 
             p Si desea reconocer las características e identificar las tipologías y topologías de red que se pueden diseñar a la hora de estructurar la infraestructura tecnológica en una organización, consulte el siguiente material:
         
         .col-lg-5
