@@ -95,7 +95,7 @@
       
       .row
         .col-lg-8
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_1_Caracteristicas_red.pdf')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_2_Caracteristicas_centro_datos.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
