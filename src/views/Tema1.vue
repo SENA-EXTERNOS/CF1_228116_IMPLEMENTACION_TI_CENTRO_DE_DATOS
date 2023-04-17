@@ -86,20 +86,13 @@
         .col-lg-7
         
             p Una red de datos no es más que la interconexión física que existe entre varios dispositivos y que permite la transmisión de información de un equipo a otro o a los demás que están conectados; es decir, una red de datos permite el intercambio de información de manera directa utilizando un medio de comunicación. Al momento de hablar con otras personas, se requiere de un medio de comunicación, un emisor y un receptor, ¿verdad? Así mismo funciona una red de datos, el emisor corresponde al equipo host que desea enviar la información, el medio será cableado, el mismo aire a través de una conexión wifi y el equipo receptor se convierte en aquel para el cual fue enviado el mensaje inicial. Así bien, las redes de datos se pueden crear entre dos dispositivos a través de un cable cruzado, conectados a través de una conexión wifi, dispositivo <i>bluetooth</i>, infrarrojo o todo aquel que permita el intercambio de datos de un equipo al otro. 
-            p Si desea reconocer las características e identificar las tipologías y topologías de red que se pueden diseñar a la hora de estructurar la infraestructura tecnológica en una organización, consulte el siguiente material:
         
         .col-lg-5
             
             figure
                 img(data-aos="fade-right")(src="@/assets/curso/temas/img-red-de-datos-tema1.png", alt="alt").img-red-de-datos-tema1
       
-      .row
-        .col-lg-8
-          a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_2_Caracteristicas_centro_datos.pdf')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p Anexo. Características, tipologías y topologías de la red
+
 
     h3.my-5 Modelos de referencia
 
