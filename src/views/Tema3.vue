@@ -50,15 +50,15 @@
                 img(src="@/assets/curso/temas/img1-tipos-tema3.png", alt="alt").img400.m-auto
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-acord-tema3")
-                .row(titulo="Mantenimiento Preventivo")
+                .row(titulo="Mantenimiento preventivo")
                   .col-12
                     p.txt-acord-tema3.mb-0 Se realiza con periodicidad de acuerdo al protocolo establecido de mantenimiento y permite garantizar el funcionamiento de los dispositivos tecnológicos y prolongar su tiempo de vida útil dentro del sistema. 
 
-                .row(titulo="Mantenimiento Correctivo ")
+                .row(titulo="Mantenimiento correctivo ")
                   .col-12
                     p.txt-acord-tema3.mb-0 Se realiza una vez se presenta una novedad o incidencia con el dispositivo, generalmente se presentan fallas en ellos y se requiere de intervención para su reparación. Como una buena práctica se deben establecer contingencias que permitan cubrir la necesidad prevista con un dispositivo puntual y resolver la situación parcialmente mientras se encuentra la falla y se repara el equipo principal. 
 
-                .row(titulo="Mantenimiento Predictivo")
+                .row(titulo="Mantenimiento predictivo")
                   .col-12
                     p.txt-acord-tema3.mb-0 Durante el mantenimiento preventivo o correctivo se pueden encontrar novedades en el funcionamiento de un sistema que pueden generar fallas a futuro; visualizarlas y repararlas en el momento permiten que el dispositivo reduzca el riesgo a una falla y permite prolongar el tiempo de uso del dispositivo en el sistema. Algunos ejemplos que se pueden citar son: lubricación de componentes, cambio en engranajes, ventiladores, extractores, entre otros. 
 
@@ -268,7 +268,7 @@
      
             .col-lg-8
 
-                p Se presentan las proyecciones de los sistemas eléctricos, normatividad para cada cuarto según requerimientos, equipos y dispositivos que irán en el centro de datos incluidas las sillas y los escritorios según la reglamentación técnica. Se presenta una tabla con el total de dispositivos eléctricos y las cargas que cada uno posee, tabla que permite calcular el total de carga (Potencia Total) que debe soportar la planta eléctrica, UPS y sistema eléctrico.
+                p Se presentan las proyecciones de los sistemas eléctricos, normatividad para cada cuarto según requerimientos, equipos y dispositivos que irán en el centro de datos incluidas las sillas y los escritorios según la reglamentación técnica. Se presenta una tabla con el total de dispositivos eléctricos y las cargas que cada uno posee, tabla que permite calcular el total de carga (potencia total) que debe soportar la planta eléctrica, UPS y sistema eléctrico.
                 p Para listar las pautas del mantenimiento, ya sea preventivo, predictivo o correctivo en un centro de datos, es imprescindible que se conozcan los criterios de manejo de incidentes según la normativa vigente y los estándares, por ello se tratará este tema que le permitirá reconocer a los actores en el proceso de prestación de servicios de mantenimiento a un <i>data center</i>, la estructura de distribución de los servicios y los tiempos de respuesta estimados según corresponda. 
 
     br

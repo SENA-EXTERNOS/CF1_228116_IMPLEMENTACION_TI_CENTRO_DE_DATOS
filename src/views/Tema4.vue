@@ -34,7 +34,7 @@
       .col-lg-8
         p Una red de convergencia basada en el protocolo IP se construye a través de tres elementos fundamentales:
         p El desarrollo tecnológico permite ofrecer múltiples servicios sobre una red (la red multipropósito basado en IP y el sistema de protocolos) para que la información fluya adecuadamente. 
-        p La Voz sobre IP o VoIP es un ejemplo de red convergente, eficiente, flexible y económico que permite la integración de la voz a través de paquetes utilizando el protocolo IP para su envío, así se podrá implementar sobre la infraestructura de red LAN un servicio de VoIP que permita la construcción de una red de convergencia que permita administrar una planta telefónica, llamadas y terminales telefónicas IP en el modelo. 
+        p La voz sobre IP o VoIP es un ejemplo de red convergente, eficiente, flexible y económico que permite la integración de la voz a través de paquetes utilizando el protocolo IP para su envío, así se podrá implementar sobre la infraestructura de red LAN un servicio de VoIP que permita la construcción de una red de convergencia que permita administrar una planta telefónica, llamadas y terminales telefónicas IP en el modelo. 
 
 
 
@@ -108,7 +108,7 @@
         .tarjeta.color-acento-botones--borde.p-4(titulo="Retardo de paquetes")
           h4 Retardo de paquetes
 
-          p A través de la comunicación Half-Duplex se ha determinado que un retardo debe ser menor a 150 ms, así se considera “aceptable”. Algunos de los retardos más comunes son: 
+          p A través de la comunicación #[em Half-Duplex] se ha determinado que un retardo debe ser menor a 150 ms, así se considera “aceptable”. Algunos de los retardos más comunes son: 
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -123,7 +123,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 3
-              | Retardo en las colas: una vez el paquete llega al Gateway, éste deberá esperar “su turno” en la salida de acuerdo a la cola y las características del tráfico. 
+              p.mb-0 Retardo en las colas: una vez el paquete llega al #[em gateway], éste deberá esperar “su turno” en la salida de acuerdo a la cola y las características del tráfico. 
 
             li 
               .lista-ol--cuadro__vineta
@@ -132,7 +132,7 @@
 
         .tarjeta.color-acento-botones--borde.p-4(titulo="Variaciones en el retardo")
           h4 Variaciones en el retardo
-          p La varianza de los tiempos entre llegadas de paquetes al receptor (jitter), es impactante para la VoIP ocasionado por el mismo retardo, así un paquete perdido afecta la calidad de la voz; dichas variaciones se presentan por ejemplo en la cola de salida y la posibilidad latente de que cada paquete tome una ruta diferente dentro de la red IP. 
+          p La varianza de los tiempos entre llegadas de paquetes al receptor (#[em jitter]), es impactante para la VoIP ocasionado por el mismo retardo, así un paquete perdido afecta la calidad de la voz; dichas variaciones se presentan por ejemplo en la cola de salida y la posibilidad latente de que cada paquete tome una ruta diferente dentro de la red IP. 
                   
         
     p.mt-5 En redes que requieran mayor tráfico de paquetes se deberán especificar los siguientes aspectos:

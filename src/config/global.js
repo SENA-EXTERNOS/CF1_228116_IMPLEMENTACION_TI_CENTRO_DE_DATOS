@@ -125,8 +125,7 @@ export default {
       referencia:
         'Procuraduría general de la nación. <em>Anexo Licitación.</em>',
       tipo: 'PDF',
-      link:
-        'https://docs.google.com/document/d/1rvTl923YKMefGtAy-mtH2-EPm4j6_cZI/edit?usp=share_link&ouid=117119019426553866975&rtpof=true&sd=true',
+      descarga: '/downloads/licitacion132011_anexotecnico.pdf',
     },
     {
       tema: 'Formato lista de chequeo alistamiento de equipos de cómputo ICBF',
