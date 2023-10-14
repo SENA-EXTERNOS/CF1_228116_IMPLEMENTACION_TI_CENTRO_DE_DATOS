@@ -234,7 +234,7 @@
     //-         p.txt-tarj-anexo-tema2.mb-0 Para conocer un caso real de la implementación de buenas prácticas en un centro de datos, visualice el siguiente caso práctico de la licitación entregada por la Procuraduría General de la Nación, cuyo objetivo es reubicar el centro de datos según el siguiente anexo técnico:
               
     //-       .col-auto
-    //-           a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4_Estandares_y_normas.pdf')" target="_blank")
+    //-           a.boton.boton--b(href="https://docs.google.com/document/d/1rvTl923YKMefGtAy-mtH2-EPm4j6_cZI/edit" target="_blank")
     //-             .anexo__texto
     //-             span Descargar
     //-             i.fas.fa-file-download
