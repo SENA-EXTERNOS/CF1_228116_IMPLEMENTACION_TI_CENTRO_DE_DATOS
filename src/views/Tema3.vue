@@ -219,25 +219,25 @@
         p Algunas certificaciones son requisitos obligatorios para el funcionamiento del <i>data center</i>, algunas otras son sugerencias de operación, administración y control del mismo.
 
 
-    br
-    br
-    br
+    //- br
+    //- br
+    //- br
 
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-10      
-        .row.justify-content-evenly.align-items-center.fondo-tarj-anexo-tema4.tarjeta.p-2.mt-5
-          .col-auto
-            img.img-t(src="@/assets/template/icono-pdf.svg")
+    //- .row.justify-content-center.align-items-center.mb-5           
+    //-   .col-lg-10      
+    //-     .row.justify-content-evenly.align-items-center.fondo-tarj-anexo-tema4.tarjeta.p-2.mt-5
+    //-       .col-auto
+    //-         img.img-t(src="@/assets/template/icono-pdf.svg")
 
-          .col-lg-9.my-3 
-            h4.txt-tarj-anexo-tema2 Normas y estándares nacionales e internacionales
-            p.txt-tarj-anexo-tema2.mb-0 Para conocer un caso real de la implementación de buenas prácticas en un centro de datos, visualice el siguiente caso práctico de la licitación entregada por la Procuraduría General de la Nación, cuyo objetivo es reubicar el centro de datos según el siguiente anexo técnico:
+    //-       .col-lg-9.my-3 
+    //-         h4.txt-tarj-anexo-tema2 Normas y estándares nacionales e internacionales
+    //-         p.txt-tarj-anexo-tema2.mb-0 Para conocer un caso real de la implementación de buenas prácticas en un centro de datos, visualice el siguiente caso práctico de la licitación entregada por la Procuraduría General de la Nación, cuyo objetivo es reubicar el centro de datos según el siguiente anexo técnico:
               
-          .col-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4_Estandares_y_normas.pdf')" target="_blank")
-                .anexo__texto
-                span Descargar
-                i.fas.fa-file-download
+    //-       .col-auto
+    //-           a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4_Estandares_y_normas.pdf')" target="_blank")
+    //-             .anexo__texto
+    //-             span Descargar
+    //-             i.fas.fa-file-download
 
     br
     br
