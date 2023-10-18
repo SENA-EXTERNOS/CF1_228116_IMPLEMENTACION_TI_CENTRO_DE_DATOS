@@ -121,7 +121,7 @@
             p.txt-tarj-anexo-tema2 Para conocer sobre la aplicabilidad de la informática forense y las tendencias de los ecosistemas tecnológicos, lo invitamos a revisar en siguiente documento:
                 
           .col-auto
-            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_8_Informatica_forense.pdf')" target="_blank")
+            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_7_Informatica_forense.pdf')" target="_blank")
               .anexo__texto
               span Descargar
               i.fas.fa-file-download

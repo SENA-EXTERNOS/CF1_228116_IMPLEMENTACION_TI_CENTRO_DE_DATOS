@@ -141,7 +141,7 @@
             p.mb-0.txt-tarj-anexo-tema2 Para conocer los Estándares y Normativas Nacionales e Internacionales para las TI que regulan todos los procesos y permiten establecer los parámetros de configuración y administración de un centro de datos y la Infraestructura tecnológica, lo invitamos a revisar el siguiente material de apoyo:
               
           .col-auto
-            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_4_Estandares_y_normas.pdf')" target="_blank")
+            a.boton.boton--b(:href="obtenerLink('/downloads/anexo_3_Estandares_y_normas.pdf')" target="_blank")
               .anexo__texto
               span Descargar
               i.fas.fa-file-download
