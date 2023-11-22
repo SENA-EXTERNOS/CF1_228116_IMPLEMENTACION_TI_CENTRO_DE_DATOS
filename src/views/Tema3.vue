@@ -184,7 +184,7 @@
         .row 
           .col-lg-5
               figure
-                  img(src='@/assets/curso/temas/img-admin-plat-tema3.png', alt='Texto que describa la imagen').img-admin-plat-tema3
+                  img(src='@/assets/curso/temas/img-admin-plat-tema3.jpeg', alt='Texto que describa la imagen').img-admin-plat-tema3
           
           .col-lg-7
 
